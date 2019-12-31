@@ -1,0 +1,22 @@
+%message{
+	font-size:30px;
+	font-family:arial;
+	padding : 20px;
+	border: 2 solid gray;
+	margin: 20px;
+
+}
+
+.msg1{
+	@extend %message;
+	background-color: green;
+}
+
+.msg2{
+	@extend %message;
+	background-color: red;
+}
+.msg3{
+	@extend %message;
+	background-color: orange;
+}

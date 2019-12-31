@@ -1,0 +1,14 @@
+$color:green;
+$fontsize:20px;
+$colorhov:orange;
+
+div ul li a {
+                 color: $color;
+                 font-size: $fontsize;
+                
+
+
+              }
+ a:hover {
+                 color:$colorhov;
+                 }

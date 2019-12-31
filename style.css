@@ -1,0 +1,61 @@
+@media (min-width: 500px) {
+                
+                h2::before {
+                    content: " Welcome to my web site Love Code  ";
+
+                }   }
+
+                 @media (max-width: 499px) {
+                   
+                h2::before {
+                    content: " Welcome  ";
+
+                }  }
+
+  
+           h3{
+            font-family: cambria;
+         
+           }  
+
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;/* double borders go away */
+  width: 50%; 
+ 
+}
+/* center my table */
+
+.mypic {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+
+  
+}
+
+
+
+
+  .row > div {
+          padding: 10px;
+          border: 4px solid gray ;
+
+        }
+
+
+
+    .subform , div {
+      margin-left: 8px;
+    }
+
+ div[id=footer]
+    {
+border: 1px solid gray ;
+text-align: center;
+font-size: 15px;
+margin-top: 20px;
+
+    }

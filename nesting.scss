@@ -1,0 +1,35 @@
+div{
+	font-size:20px;
+
+	p{
+font-size: 20px;
+font-family: garamond;
+color:gray;
+	 }
+
+	ol{
+font-size: 20px;
+color:red ;
+font-family: arial;
+
+	}
+}
+
+table {
+
+        margin-right: auto;
+        margin-left:auto;
+
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+            }
+
+            
+        tr:nth-child(even) {
+        background-color: #dddddd;
+                    }
+
+      }
